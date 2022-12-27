@@ -101,7 +101,7 @@ void Cinemax :: book(){
 void Cinemax :: cancel(){
     Node *temp;
     int x, y, n;
-    cout << "Enter the number of seats to cancle : ";
+    cout << "Enter the number of seats to cancel : ";
     cin >> n;
     while(n>0){
         cout << "Enter the row : ";
